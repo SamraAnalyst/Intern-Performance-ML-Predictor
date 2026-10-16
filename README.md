@@ -1,16 +1,20 @@
 # Intern Performance Prediction Using Machine Learning
 
-This project is built as part of my Data Analyst Internship at Internee.pk.
+## Objective
+This project builds a classification model to estimate internship performance from selected indicators such as attendance, task submissions, and feedback scores.
+
+## Tools
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Logistic Regression
+
+## Method
+The data is organised and prepared using Pandas. Selected performance-related features are used as inputs for a Logistic Regression classification model. The model is trained to classify the available records according to the defined performance categories.
+
+## Result
+The project generates predicted performance categories for the provided records. The predictions are intended for learning and analysis and should not be treated as final decisions about an individual’s performance.
+
 ![ML Model Prediction Output](output.png)
 
-### Project Objective:
-The goal of this task is to design a Predictive Classification Model using Logistic Regression to evaluate intern datasets (Attendance, Task Submissions, and Feedback scores) and forecast performance success rates.
-
-### Core Architecture & Tech Stack:
-* **Python** (Backend Logic)
-* **Pandas & NumPy** (Matrix Operations and Data Panels)
-* **Scikit-Learn (sklearn)** (Logistic Regression Classifier Engine)
-
-### Live Evaluation Metrics Output:
-* Successfully trained the mathematical model pipeline directly on structural inputs rows.
-* Predicted new intern parameter matrices successfully with real accuracy insights.
